@@ -26,7 +26,7 @@ function remove(id) {
 }
 
 function findById(id) {
-    return db('character')
+    return db('characters')
         .where({ id })
         .first();
 }
